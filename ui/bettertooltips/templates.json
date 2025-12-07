@@ -1,0 +1,19 @@
+{
+  "namespace": "templates",
+  "better_item_background": {
+    "type": "image",
+    "texture": "('textures/ui/purpleBorder_'+$bg_rarity)",
+    "bindings": [
+      {
+        "binding_name": "#hover_text",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not((#hover_text-$codec)=#hover_text))",
+        "target_property_name": "#visible"
+      }
+    ]
+  }
+}

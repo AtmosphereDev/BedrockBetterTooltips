@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "BedrockBetterTooltips",
+    "description": "By: §uAtmosphereDevs §rx §cVinkyV",
+    "uuid": "9ecb11d6-19f6-6baf-459e-2375cc4213dd",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "2c80e052-7b5c-32ec-7a72-ee86cad44d6c",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
