@@ -44,6 +44,7 @@
       {
         "background@common.item_background": {
           "layer": 1,
+          "allow_clipping": false,
           "size": [ "100%sm + 10px", "100%sm + 10px" ]
         }
       },
@@ -51,6 +52,7 @@
         "better_item_hover_text": {
           "type": "label",
           "text": "#hover_text",
+          "allow_clipping": false,
           "bindings": [
             {
               "binding_name": "#hover_text",
